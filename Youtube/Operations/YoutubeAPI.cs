@@ -18,7 +18,7 @@ namespace Youtube.Operations
         {
             return new YouTubeService(new BaseClientService.Initializer()
             {
-                ApiKey = "AIzaSyA5oSGYJ5ca3pGrX0sFC_xyahE8MDVoz8E",
+                ApiKey = "---------------KEY---------------------",
                 ApplicationName = this.GetType().ToString()
             });
         }
